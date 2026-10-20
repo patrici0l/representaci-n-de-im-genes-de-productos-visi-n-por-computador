@@ -8,6 +8,12 @@ Captura al menos tres productos con colores identificables. Fotografía uno de e
 
 ## Ejecución
 
+El archivo principal de trabajo es `practica1.ipynb`. Ábrelo en VS Code con las extensiones Python y Jupyter, selecciona el kernel de Python y ejecuta las celdas en orden. Cambia `NOMBRE_IMAGEN`, `COLOR` y `UMBRAL` en la celda de selección y vuelve a ejecutar desde esa celda para analizar otra fotografía. Los gráficos aparecen dentro del cuaderno y se guardan en `resultados/cuaderno/`.
+
+Instala las dependencias con `python -m pip install -r requirements.txt`. El cuaderno comienza con `miloFront.jpeg` y segmentación verde.
+
+Para procesar todas las fotografías mediante el script:
+
 ```powershell
 python -m pip install -r requirements.txt
 python practica1.py
